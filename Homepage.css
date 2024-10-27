@@ -1,0 +1,163 @@
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: #0d0d0d;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #1a1a1a;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 64px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-stats div {
+  text-align: center;
+}
+
+.hero-stats h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #1ca055;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn.secondary {
+  margin-left: 20px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #1ca055;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+  background-color: #111;
+  padding: 50px;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.why-choose-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-choose-us li {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 50px;
+  background-color: #1a1a1a;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.testimonial img {
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.testimonial p {
+  font-size: 18px;
+}
+
+/* Competition Training */
+.competition-training {
+  background-color: #111;
+  padding: 50px;
+  text-align: center;
+}
+
+.competition-training h2 {
+  font-size: 36px;
+}
+
+.competition-training p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+/* Pricing Section */
+.pricing {
+  padding: 50px;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.pricing-options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pricing-option {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.pricing-option h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pricing-option p {
+  font-size: 20px;
+  color: #1ca055;
+}
