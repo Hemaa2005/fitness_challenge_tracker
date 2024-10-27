@@ -1,0 +1,20 @@
+.nav {
+    background-color: #0d0d0d;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .nav .btn-outline-success {
+    color: white;
+    background-color: #1ca055;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .nav .btn-outline-success:hover,
+  .nav .btn-outline-success:focus {
+    margin-right: 10px;
+    background-color: #148f47;
+  }
+  
